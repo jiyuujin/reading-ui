@@ -1,10 +1,10 @@
-import App from './App.svelte'
+import ReadMore from './components/ReadMore.svelte'
 
-const app = new App({
+const app = new ReadMore({
 	target: document.body,
 	props: {
-		name: 'world'
+		//
 	}
 })
 
-export default app
+export default ReadMore
